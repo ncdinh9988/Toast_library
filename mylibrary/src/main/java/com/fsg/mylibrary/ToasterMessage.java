@@ -1,13 +1,22 @@
 package com.fsg.mylibrary;
 
 import android.content.Context;
+import android.os.Bundle;
 import android.widget.Toast;
 
-public class ToasterMessage {
+import androidx.appcompat.app.AppCompatActivity;
 
-    public static void s(Context c, String message){
+public class ToasterMessage extends AppCompatActivity {
 
-        Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
     }
+//    public static void s(Context c, String message){
+//
+//        Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
+//
+//    }
 }
