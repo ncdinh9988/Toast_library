@@ -14,9 +14,9 @@ public class ToasterMessage extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
-//    public static void s(Context c, String message){
-//
-//        Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
-//
-//    }
+    public static void s(Context c, String message){
+
+        Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
+
+    }
 }
